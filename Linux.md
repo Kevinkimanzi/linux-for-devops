@@ -11,7 +11,7 @@
 
 5.touch - Create blank/empty files
 
-6.nano - used to edit a file
+6.nano, vi, and jed -	Edits a file with a text editor
 
 7.cat - Display file contents on the terminal
 
