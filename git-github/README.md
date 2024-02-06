@@ -28,11 +28,11 @@ git config --global user.email <email id>
 git branch
 The git branch command is used to determine what branch the local repository is on.
 The command enables adding and deleting a branch.
-# Create a new branch
+ Create a new branch
   git branch <branch_name>
-# List all remote or local branches
+ List all remote or local branches
   git branch -a
-# Delete a branch
+ Delete a branch
   git branch -d <branch_name>
 
 
@@ -40,10 +40,13 @@ git checkout
 The git checkout command is used to switch branches, whenever the work is to be started on a different branch.
 
 
-# Checkout an existing branch
-  git checkout <branch_name>
-# Checkout and create a new branch with that name
-  git checkout -b <new_branch>
+ Checkout an existing branch
+
+  '''git checkout <branch_name>'''
+
+ Checkout and create a new branch with that name
+
+  '''git checkout -b <new_branch>'''
 
 
 git merge
