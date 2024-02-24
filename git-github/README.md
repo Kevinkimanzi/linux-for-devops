@@ -5,20 +5,20 @@ tracks changes to a file or set of files over time
 Git is a version control system that allows developers to track changes in their code. GitHub is a web-based hosting service for git repositories.
 
 Git Commands: Working With Local Repositories
-git init
+# git init
 The command git init is used to create an empty Git repository. 
-git add
+# git add
 Add command is used after checking the status of the files, to add those files to the staging area.
 
-git commit
+# git commit
 The commit command makes sure that the changes are saved to the local repository.
 The command ```git commit –m <message>``` allows you to describe everyone and help them understand what has happened.
 
-git status
+# git status
 The git status command tells the current state of the repository.
 
 
-git config
+# git config
 The git config command is used initially to configure the user.name and user.email. This specifies what email id and username will be used from a local repository.
 
 
@@ -27,7 +27,7 @@ The git config command is used initially to configure the user.name and user.ema
 ```git config --global user.email <email id>```
 
 
-git branch
+# git branch
 The git branch command is used to determine what branch the local repository is on.
 The command enables adding and deleting a branch.
 
@@ -44,7 +44,7 @@ The command enables adding and deleting a branch.
   ```git branch -d <branch_name>```
 
 
-git checkout
+# git checkout
 The git checkout command is used to switch branches, whenever the work is to be started on a different branch.
 
 
@@ -56,7 +56,7 @@ The git checkout command is used to switch branches, whenever the work is to be 
 
   ```git checkout -b <new_branch>```
 
-git merge
+# git merge
 The git merge command is used to integrate the branches together. The command combines the changes from one branch to another branch. 
 It is used to merge the changes in the staging branch to the stable branch.
   ```git merge <branch_name>```
